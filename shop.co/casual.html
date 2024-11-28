@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Casual</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240914100440">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- nouislider -->
+	<link rel="stylesheet" href="../js/nouislider/nouislider.css?_v=20240914100440">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container header__container--border">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<div class="header__wrapper-logo">
+					<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="Image"></a>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<div data-spollers class="header__spollers spollers-header">
+									<details class="spollers-header__item">
+										<summary data-spoller-close class="spollers-header__title _icon-arrow-spoler"><span>Shop</span></summary>
+										<ul class="spollers-header__body">
+											<li class="spollers-header__row">
+												<a class="spollers-header__link" href="#">Arrivals</a>
+											</li>
+											<li class="spollers-header__row">
+												<a class="spollers-header__link" href="#">Top
+													selling</a>
+											</li>
+											<li class="spollers-header__row">
+												<a class="spollers-header__link" href="#">New
+													Colections</a>
+											</li>
+										</ul>
+									</details>
+								</div>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">On Sale</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">New Arrivals</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Brands</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<form action="#" class="header__search search-header">
+					<button class="search-header__button _icon-search"></button>
+					<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Search for products..." class="search-header__input">
+				</form>
+				<div class="header__icons icons-header">
+					<button class="icons-header__link icons-header__button-search _icon-search" href="#"></button>
+					<a class="icons-header__link _icon-cart" target="_blank" href="cart.html"></a>
+					<a class="icons-header__link _icon-profile" href="#"></a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container">
+				<div class="bread-crumbs">
+					<ul class="bread-crumbs__list">
+						<li class="bread-crumbs__item">
+							<a href="home.html" class="bread-crumbs__link">Home</a>
+						</li>
+						<li class="bread-crumbs__item">
+							<a href="#" class="bread-crumbs__link bread-crumbs__link--active">Casual</a>
+						</li>
+					</ul>
+				</div>
+				<div class="page__wrap">
+					<div class="page__filter filter">
+						<div class="filter__wrap">
+							<div class="filter__top top-filter">
+								<div class="top-filter__title">Filters</div>
+								<button type="button" class="top-filter__button _icon-params"></button>
+							</div>
+							<div class="filter__catigories catigories-filter">
+								<ul class="catigories-filter__list">
+									<li class="catigories-filter__item">
+										<button type="button" class="catigories-filter__button _icon-arrow-spoler"><span>T-shirts</span></button>
+									</li>
+									<li class="catigories-filter__item">
+										<button type="button" class="catigories-filter__button _icon-arrow-spoler"><span>Shorts</span></button>
+									</li>
+									<li class="catigories-filter__item">
+										<button type="button" class="catigories-filter__button _icon-arrow-spoler">
+											<sapn>Shirts</sapn>
+										</button>
+									</li>
+									<li class="catigories-filter__item">
+										<button type="button" class="catigories-filter__button _icon-arrow-spoler">
+											<sapn>Hoodie</sapn>
+										</button>
+									</li>
+									<li class="catigories-filter__item">
+										<button type="button" class="catigories-filter__button _icon-arrow-spoler">
+											<sapn>Jeans</sapn>
+										</button>
+									</li>
+								</ul>
+							</div>
+							<form action="#" class="filter__form form-filter">
+								<div data-spollers class="form-filter__spollers spollers-form-filter">
+									<details class="spollers-form-filter__item">
+										<summary class="spollers-form-filter__title _icon-arrow-spoler">Price</summary>
+										<div class="spollers-form-filter__price">
+											<div class="spollers-form-filter__slider"></div>
+										</div>
+									</details>
+									<details class="spollers-form-filter__item">
+										<summary class="spollers-form-filter__title _icon-arrow-spoler">Color</summary>
+										<div class="spollers-form-filter__colors colors-spollers-form-filter">
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-01">
+												<input checked class="radio-colors-spollers-form-filter__input" name="color" value="green" type="radio" id="filter-color-01">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--green _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-02">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="red" type="radio" id="filter-color-02">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--red _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-03">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="yellow" type="radio" id="filter-color-03">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--yellow _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-04">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="orange" type="radio" id="filter-color-04">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--orange _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-05">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="blue" type="radio" id="filter-color-05">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--blue _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filterr" for="filter-color-06">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="darck-blue" type="radio" id="filter-color-06">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--darck-blue _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-07">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="violet" type="radio" id="filter-color-07">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--violet _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-08">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="pink" type="radio" id="filter-color-08">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--pink _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-09">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="white" type="radio" id="filter-color-09">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--white _icon-check-transperents"></span>
+											</label>
+											<label class="colors-spollers-form-filter__radio radio-colors-spollers-form-filter" for="filter-color-10">
+												<input class="radio-colors-spollers-form-filter__input" name="color" value="black" type="radio" id="filter-color-10">
+												<span class="radio-colors-spollers-form-filter__color radio-colors-spollers-form-filter__color--black _icon-check-transperents"></span>
+											</label>
+										</div>
+									</details>
+									<details class="spollers-form-filter__item">
+										<summary class="spollers-form-filter__title _icon-arrow-spoler">Size</summary>
+										<div class="spollers-form-filter__size size-spollers-form-filter">
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-01">
+												<input class="radio-size-spollers-form-filter__input" name="size" value="XX-Small" type="radio" id="filter-size-01">
+												<span class="radio-size-spollers-form-filter__span">XX-Small</span>
+											</label>
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-02">
+												<input class="radio-size-spollers-form-filter__input" name="size" value="X-Small" type="radio" id="filter-size-02">
+												<span class="radio-size-spollers-form-filter__span">X-Small</span>
+											</label>
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-03">
+												<input class="radio-size-spollers-form-filter__input" name="size" value="Small" type="radio" id="filter-size-03">
+												<span class="radio-size-spollers-form-filter__span">Small</span>
+											</label>
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-04">
+												<input class="radio-size-spollers-form-filter__input" name="size" value="Medium" type="radio" id="filter-size-04">
+												<span class="radio-size-spollers-form-filter__span">Medium</span>
+											</label>
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-05">
+												<input checked class="radio-size-spollers-form-filter__input" name="size" value="Large" type="radio" id="filter-size-05">
+												<span class="radio-size-spollers-form-filter__span">Large</span>
+											</label>
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-06">
+												<input class="radio-size-spollers-form-filter__input" name="size" value="X-Large" type="radio" id="filter-size-06">
+												<span class="radio-size-spollers-form-filter__span">X-Largel</span>
+											</label>
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-07">
+												<input class="radio-size-spollers-form-filter__input" name="size" value="XX-Large" type="radio" id="filter-size-07">
+												<span class="radio-size-spollers-form-filter__span">XX-Large</span>
+											</label>
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-08">
+												<input class="radio-size-spollers-form-filter__input" name="size" value="3X-Large" type="radio" id="filter-size-08">
+												<span class="radio-size-spollers-form-filter__span">3X-Large</span>
+											</label>
+											<label class="size-spollers-form-filter__radio radio-size-spollers-form-filter" for="filter-size-09">
+												<input class="radio-size-spollers-form-filter__input" name="size" value="4X-Large" type="radio" id="filter-size-09">
+												<span class="radio-size-spollers-form-filter__span">4X-Large</span>
+											</label>
+										</div>
+									</details>
+									<details class="spollers-form-filter__item">
+										<summary class="spollers-form-filter__title _icon-arrow-spoler">Style</summary>
+										<div class="spollers-form-filter__style style-spollers-form-filter">
+											<div class="style-spollers-form-filter__catigories catigories-filter">
+												<ul class="catigories-filter__list">
+													<li class="catigories-filter__item">
+														<button type="button" class="catigories-filter__button _icon-arrow-spoler"><span>Casual</span></button>
+													</li>
+													<li class="catigories-filter__item">
+														<button type="button" class="catigories-filter__button _icon-arrow-spoler"><span>Formal</span></button>
+													</li>
+													<li class="catigories-filter__item">
+														<button type="button" class="catigories-filter__button _icon-arrow-spoler">
+															<sapn>Party</sapn>
+														</button>
+													</li>
+													<li class="catigories-filter__item">
+														<button type="button" class="catigories-filter__button _icon-arrow-spoler">
+															<sapn>Gym</sapn>
+														</button>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</details>
+								</div>
+								<button class="form-filter__button button">Apply Filter</button>
+							</form>
+						</div>
+					</div>
+					<div class="page__casual casual">
+						<div class="casual__top">
+							<div class="casual__title">Casual</div>
+							<div class="casual__sort sort-casual">
+								<div class="sort-casual__show">Showing 1-10 of 100 Products</div>
+								<div data-spollers class="sort-casual__spollers spollers-sort-casual">
+									<details class="spollers-sort-casual__item">
+										<summary data-spoller-close class="spollers-sort-casual__title _icon-arrow-spoler"><span>Sort by: <span class="spollers-sort-casual__title--bold">Most Popular</span></span></summary>
+										<div class="spollers-sort-casual__body">Spoiler content</div>
+									</details>
+								</div>
+								<button type="button" class="sort-casual__button _icon-params"></button>
+							</div>
+						</div>
+						<div class="casual__wrap">
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/10.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Gradient Graphic T-shirt</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star-05">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>3.5</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$145</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/11.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Polo with Tipping Details</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star-05">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>4.5</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$180</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/12.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Black Striped T-shirt</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>5</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$120</div>
+											<div class="price-card__old">$150</div>
+											<div class="price-card__sale">-30%</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/02.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Skinny Fit Jeans</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star-05">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>3.5</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$240</div>
+											<div class="price-card__old">$260</div>
+											<div class="price-card__sale">-20%</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/03.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Checkered Shirt</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star-05">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>4.5</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$180</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/04.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Sleeve Striped T-shirt</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star-05">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>4.5</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$130</div>
+											<div class="price-card__old">$160</div>
+											<div class="price-card__sale">-30%</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/05.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Vertical Striped Shirt</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>5</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$212</div>
+											<div class="price-card__old">$232</div>
+											<div class="price-card__sale">-20%</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/06.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Courage Graphic T-Shirt</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>4</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$145</div>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="product-card">
+								<div class="product-card__wrap">
+									<a href="productpage.html" target="_blank" class="product-card__image">
+										<img src="img/product-card/07.webp" alt="Image">
+									</a>
+									<div class="product-card__bottom">
+										<h3 class="product-card__name">
+											<a href="productpage.html" target="_blank">Loose Fit Bermuda Shorts</a>
+										</h3>
+										<div class="product-card__raiting raiting">
+											<ul class="raiting__stars">
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+												<li class="raiting__star _icon-star">
+												</li>
+											</ul>
+											<div class="raiting__number">
+												<span>3</span> / <span>5</span>
+											</div>
+										</div>
+										<div class="product-card__price price-card">
+											<div class="price-card__main">$80</div>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="casual__bottom bottom-casual">
+							<button type="button" class="bottom-casual__button bottom-casual__button--previous _icon-arrow-slider">Previous</button>
+							<div class="bottom-casual__pages pages-bottom-casual">
+								<button class="pages-bottom-casual__button pages-bottom-casual__button--active">1</button>
+								<button class="pages-bottom-casual__button pages-bottom-casual__button--del">2</button>
+								<button class="pages-bottom-casual__button pages-bottom-casual__button--del">3</button>
+								<span>...</span>
+								<button class="pages-bottom-casual__button pages-bottom-casual__button--del">8</button>
+								<button class="pages-bottom-casual__button pages-bottom-casual__button--del">9</button>
+								<button class="pages-bottom-casual__button">10</button>
+							</div>
+							<button type="button" class="bottom-casual__button bottom-casual__button--next _icon-arrow-slider">Next</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__bgraund">
+					<div class="footer__lable lable-footer">
+						<div class="lable-footer__wrap">
+							<div class="lable-footer__title">STAY UPTO DATE ABOUT OUR LATEST
+								OFFERS</div>
+							<form action="#" class="lable-footer__form">
+								<div class="lable-footer__wrap-input _icon-mail"><input autocomplete="off" type="email" name="form[]" data-error="Помилка" placeholder="Enter your email address" class="lable-footer__input"></div>
+								<button class="lable-footer__button">Subscribe to
+									Newsletter</button>
+							</form>
+						</div>
+					</div>
+				</div>
+				<div class="footer__main main-footer">
+					<div class="main-footer__column-main column-main-footer">
+						<a href="#" class="column-main-footer__logo"><img src="img/logo.svg" alt></a>
+						<div class="column-main-footer__text">
+							<p>We have clothes that suits your style and which you’re proud to
+								wear. From women to men.</p>
+						</div>
+						<ul class="column-main-footer__social">
+							<li class="column-main-footer__item">
+								<a class="column-main-footer__link _icon-twitter" href="#"></a>
+							</li>
+							<li class="column-main-footer__item">
+								<a class="column-main-footer__link _icon-faceboock" href="#"></a>
+							</li>
+							<li class="column-main-footer__item">
+								<a class="column-main-footer__link _icon-instagram" href="#"></a>
+							</li>
+							<li class="column-main-footer__item">
+								<a class="column-main-footer__link _icon-git" href="#"></a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-footer__column column-footer">
+						<div class="column-footer__lable">Company</div>
+						<ul class="column-footer__list">
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">About</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Features</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Works</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Career</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-footer__column column-footer">
+						<div class="column-footer__lable">Help</div>
+						<ul class="column-footer__list">
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Customer Support</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Delivery Details</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Terms & Conditions</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Privacy Policy</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-footer__column column-footer">
+						<div class="column-footer__lable">FAQ</div>
+						<ul class="column-footer__list">
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Account</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Manage Deliveries</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Orders</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Payments</a>
+							</li>
+						</ul>
+					</div>
+					<div class="main-footer__column column-footer">
+						<div class="column-footer__lable">Resources</div>
+						<ul class="column-footer__list">
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Free eBooks</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Development Tutorial</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">How to - Blog</a>
+							</li>
+							<li class="column-footer__item">
+								<a href="#" class="column-footer__link">Youtube Playlist</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer__bottom bottom-footer">
+					<div class="bottom-footer__copyright">Shop.co © 2000-2023, All Rights Reserved</div>
+					<ul class="bottom-footer__list">
+						<li class="bottom-footer__item">
+							<a href="#" class="bottom-footer__link">
+								<img src="img/icons/visa.svg" alt="Image">
+							</a>
+						</li>
+						<li class="bottom-footer__item">
+							<a href="#" class="bottom-footer__link">
+								<img src="img/icons/master.svg" alt="Image">
+							</a>
+						</li>
+						<li class="bottom-footer__item">
+							<a href="#" class="bottom-footer__link">
+								<img src="img/icons/paypal.svg" alt="Image">
+							</a>
+						</li>
+						<li class="bottom-footer__item">
+							<a href="#" class="bottom-footer__link">
+								<img src="img/icons/aplepay.svg" alt="Image">
+							</a>
+						</li>
+						<li class="bottom-footer__item">
+							<a href="#" class="bottom-footer__link">
+								<img src="img/icons/googlepay.svg" alt="Image">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240914100440"></script>
+</body>
+
+</html>

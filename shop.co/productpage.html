@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Product card</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240914100440">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- nouislider -->
+	<link rel="stylesheet" href="../js/nouislider/nouislider.css?_v=20240914100440">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container header__container--border">
+				<button type="button" class="menu__icon icon-menu"><span></span></button>
+				<div class="header__wrapper-logo">
+					<a href="home.html" class="header__logo"><img src="img/logo.svg" alt="Image"></a>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<div data-spollers class="header__spollers spollers-header">
+									<details class="spollers-header__item">
+										<summary data-spoller-close class="spollers-header__title _icon-arrow-spoler"><span>Shop</span></summary>
+										<ul class="spollers-header__body">
+											<li class="spollers-header__row">
+												<a class="spollers-header__link" href="#">Arrivals</a>
+											</li>
+											<li class="spollers-header__row">
+												<a class="spollers-header__link" href="#">Top
+													selling</a>
+											</li>
+											<li class="spollers-header__row">
+												<a class="spollers-header__link" href="#">New
+													Colections</a>
+											</li>
+										</ul>
+									</details>
+								</div>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">On Sale</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">New Arrivals</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Brands</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<form action="#" class="header__search search-header">
+					<button class="search-header__button _icon-search"></button>
+					<input autocomplete="off" type="text" name="form[]" data-error="Помилка" placeholder="Search for products..." class="search-header__input">
+				</form>
+				<div class="header__icons icons-header">
+					<button class="icons-header__link icons-header__button-search _icon-search" href="#"></button>
+					<a class="icons-header__link _icon-cart" target="_blank" href="cart.html"></a>
+					<a class="icons-header__link _icon-profile" href="#"></a>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="bread-crumbs">
+				<div class="bread-crumbs__container">
+					<ul class="bread-crumbs__list">
+						<li class="bread-crumbs__item">
+							<a href="home.html" class="bread-crumbs__link">Home</a>
+						</li>
+						<li class="bread-crumbs__item">
+							<a href="#" class="bread-crumbs__link">Shop</a>
+						</li>
+						<li class="bread-crumbs__item">
+							<a href="#" class="bread-crumbs__link">Men</a>
+						</li>
+						<li class="bread-crumbs__item">
+							<a href="#" class="bread-crumbs__link bread-crumbs__link--active">T-shirts</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="page__product-page product-page">
+				<div class="product-page__container">
+					<div class="product-page__wrap">
+						<div class="product-page__sliders">
+							<!-- Оболонка слайдера -->
+							<div class="slider-mini__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="slider-mini__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="slider-mini__slide swiper-slide">
+										<img src="img/product/01.webp" alt="01">
+									</div>
+									<div class="slider-mini__slide swiper-slide">
+										<img src="img/product/02.webp" alt="02">
+									</div>
+									<div class="slider-mini__slide swiper-slide">
+										<img src="img/product/03.webp" alt="03">
+									</div>
+								</div>
+							</div>
+							<!-- Оболонка слайдера -->
+							<div class="slider-main__slider swiper">
+								<!-- Частина слайдера, що рухається -->
+								<div class="slider-main__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="slider-main__slide swiper-slide">
+										<img src="img/product/01.webp" alt="01">
+									</div>
+									<div class="slider-main__slide swiper-slide">
+										<img src="img/product/02.webp" alt="02">
+									</div>
+									<div class="slider-main__slide swiper-slide">
+										<img src="img/product/03.webp" alt="03">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="product-page__info info-product-page">
+							<div class="info-product-page__top top-info-product-page">
+								<h2 class="top-info-product-page__title">One Life Graphic
+									T-shirt</h2>
+								<div class="top-info-product-page__raiting raiting raiting--big">
+									<ul class="raiting__stars">
+										<li class="raiting__star _icon-star">
+										</li>
+										<li class="raiting__star _icon-star">
+										</li>
+										<li class="raiting__star _icon-star">
+										</li>
+										<li class="raiting__star _icon-star">
+										</li>
+										<li class="raiting__star _icon-star-05">
+										</li>
+									</ul>
+									<div class="raiting__number">
+										<span>4.5</span> / <span>5</span>
+									</div>
+								</div>
+								<div class="top-info-product-page__price price-card price-card--big">
+									<div class="price-card__main price-card__main--big">$180</div>
+									<div class="price-card__old price-card__old--big">$300</div>
+									<div class="price-card__sale price-card__sale--big">-40%</div>
+								</div>
+								<div class="top-info-product-page__text">
+									<p>This graphic t-shirt which is perfect for any occasion.
+										Crafted from a soft and breathable fabric, it offers
+										superior comfort and style.</p>
+								</div>
+							</div>
+							<form action="#" class="info-product-page__form form-card">
+								<div class="form-card__colors colors-form-card">
+									<div class="colors-form-card__lable">Select Colors</div>
+									<div class="colors-form-card__wrap">
+										<label class="colors-form-card__radio radio-colors-form-card" for="radio-color-01">
+											<input checked class="radio-colors-form-card__input" name="color" value="brown" type="radio" id="radio-color-01">
+											<span class="radio-colors-form-card__color radio-colors-form-card__color--brown _icon-check-transperents"></span>
+										</label>
+										<label class="colors-form-card__radio radio-colors-form-card" for="radio-color-02">
+											<input class="radio-colors-form-card__input" name="color" value="green" type="radio" id="radio-color-02">
+											<span class="radio-colors-form-card__color radio-colors-form-card__color--green _icon-check-transperents"></span>
+										</label>
+										<label class="colors-form-card__radio radio-colors-form-card" for="radio-color-03">
+											<input class="radio-colors-form-card__input" name="color" value="blue" type="radio" id="radio-color-03">
+											<span class="radio-colors-form-card__color radio-colors-form-card__color--blue _icon-check-transperents"></span>
+										</label>
+									</div>
+								</div>
+								<div class="form-card__size size-form-card">
+									<div class="size-form-card__lable">Choose Size</div>
+									<div class="size-form-card__wrap">
+										<label class="size-form-card__radio radio-size-form-card" for="radio-size-01">
+											<input checked class="radio-size-form-card__input" name="size" value="Small" type="radio" id="radio-size-01">
+											<span class="radio-size-form-card__span">Small</span>
+										</label>
+										<label class="size-form-card__radio radio-size-form-card" for="radio-size-02">
+											<input class="radio-size-form-card__input" name="size" value="Medium" type="radio" id="radio-size-02">
+											<span class="radio-size-form-card__span">Medium</span>
+										</label>
+										<label class="size-form-card__radio radio-size-form-card" for="radio-size-03">
+											<input checked class="radio-size-form-card__input" name="size" value="Large" type="radio" id="radio-size-03">
+											<span class="radio-size-form-card__span">Large</span>
+										</label>
+										<label class="size-form-card__radio radio-size-form-card" for="radio-size-04">
+											<input class="radio-size-form-card__input" name="size" value="X-Large" type="radio" id="radio-size-04">
+											<span class="radio-size-form-card__span">X-Large</span>
+										</label>
+									</div>
+								</div>
+								<div class="form-card__bottom">
+									<div data-quantity class="quantity">
+										<button data-quantity-minus type="button" class="quantity__button _icon-minus quantity__button--minus"></button>
+										<div class="quantity__input">
+											<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+										</div>
+										<button data-quantity-plus type="button" class="quantity__button _icon-plus quantity__button--plus"></button>
+									</div>
+									<button class="form-card__button button">Add to
+										Cart</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="page__tabs tabs">
+				<div class="tabs__container">
+					<div data-tabs class="tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="button" class="tabs__title">Product
+								Details</button>
+							<button type="button" class="tabs__title _tab-active">Rating &
+								Reviews</button>
+							<button type="button" class="tabs__title">FAQs</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+
+							</div>
+							<div class="tabs-coment">
+								<div class="tabs-coment__top top-tabs-coment">
+									<div class="top-tabs-coment__title">All Reviews <span class="top-tabs-coment__lable">(451)</span></div>
+									<div class="top-tabs-coment__something something-tabs-comen">
+										<button class="something-tabs-comen__filter-button _icon-params"></button>
+										<div data-spollers class="something-tabs-comen__spollers spollers-tabs-comen">
+											<details class="spollers-tabs-comen__item">
+												<summary class="spollers-tabs-comen__title _icon-arrow-spoler">Latest</summary>
+												<div class="spollers-tabs-comen__body">
+													<a href="#">spoller-01</a>
+													<a href="#">spoller-02</a>
+													<a href="#">spoller-03</a>
+												</div>
+											</details>
+										</div>
+										<button class="something-tabs-comen__review-button button">Write
+											a Review</button>
+									</div>
+								</div>
+								<div class="tabs-coment__wrap">
+									<div class="tabs-coment__card card-tabs-coment">
+										<div class="card-tabs-coment__top">
+											<div class="card-tabs-coment__raiting raiting">
+												<ul class="raiting__stars">
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star-05">
+													</li>
+												</ul>
+											</div>
+											<button class="card-tabs-coment__button _icon-dots"></button>
+										</div>
+										<div class="card-tabs-coment__name _icon-check">Samantha
+											D.</div>
+										<div class="card-tabs-coment__text">
+											<p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+										</div>
+										<data class="card-tabs-coment__data" value="01.09.2024">Posted on August 14, 2023</data>
+									</div>
+									<div class="tabs-coment__card card-tabs-coment">
+										<div class="card-tabs-coment__top">
+											<div class="card-tabs-coment__raiting raiting">
+												<ul class="raiting__stars">
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star-05">
+													</li>
+												</ul>
+											</div>
+											<button class="card-tabs-coment__button _icon-dots"></button>
+										</div>
+										<div class="card-tabs-coment__name _icon-check">Samantha
+											D.</div>
+										<div class="card-tabs-coment__text">
+											<p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+										</div>
+										<data class="card-tabs-coment__data" value="01.09.2024">Posted on August 14, 2023</data>
+									</div>
+									<div class="tabs-coment__card card-tabs-coment">
+										<div class="card-tabs-coment__top">
+											<div class="card-tabs-coment__raiting raiting">
+												<ul class="raiting__stars">
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star-05">
+													</li>
+												</ul>
+											</div>
+											<button class="card-tabs-coment__button _icon-dots"></button>
+										</div>
+										<div class="card-tabs-coment__name _icon-check">Samantha
+											D.</div>
+										<div class="card-tabs-coment__text">
+											<p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+										</div>
+										<data class="card-tabs-coment__data" value="01.09.2024">Posted on August 14, 2023</data>
+									</div>
+									<div class="tabs-coment__card card-tabs-coment">
+										<div class="card-tabs-coment__top">
+											<div class="card-tabs-coment__raiting raiting">
+												<ul class="raiting__stars">
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star-05">
+													</li>
+												</ul>
+											</div>
+											<button class="card-tabs-coment__button _icon-dots"></button>
+										</div>
+										<div class="card-tabs-coment__name _icon-check">Samantha
+											D.</div>
+										<div class="card-tabs-coment__text">
+											<p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+										</div>
+										<data class="card-tabs-coment__data" value="01.09.2024">Posted on August 14, 2023</data>
+									</div>
+									<div class="tabs-coment__card card-tabs-coment">
+										<div class="card-tabs-coment__top">
+											<div class="card-tabs-coment__raiting raiting">
+												<ul class="raiting__stars">
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star-05">
+													</li>
+												</ul>
+											</div>
+											<button class="card-tabs-coment__button _icon-dots"></button>
+										</div>
+										<div class="card-tabs-coment__name _icon-check">Samantha
+											D.</div>
+										<div class="card-tabs-coment__text">
+											<p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+										</div>
+										<data class="card-tabs-coment__data" value="01.09.2024">Posted on August 14, 2023</data>
+									</div>
+									<div class="tabs-coment__card card-tabs-coment">
+										<div class="card-tabs-coment__top">
+											<div class="card-tabs-coment__raiting raiting">
+												<ul class="raiting__stars">
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star">
+													</li>
+													<li class="raiting__star _icon-star-05">
+													</li>
+												</ul>
+											</div>
+											<button class="card-tabs-coment__button _icon-dots"></button>
+										</div>
+										<div class="card-tabs-coment__name _icon-check">Samantha
+											D.</div>
+										<div class="card-tabs-coment__text">
+											<p>"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt."</p>
+										</div>
+										<data class="card-tabs-coment__data" value="01.09.2024">Posted on August 14, 2023</data>
+									</div>
+								</div>
+								<button class="tabs-coment__button button button--white">Load
+									More Reviews</button>
+							</div>
+							<div class="tabs__body">
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			 <div class="page__also also">
+				<div class="also__container">
+					<div class="also__title title">You might also like</div>
+					<div class="also__wrap">
+						<article class="product-card">
+							<div class="product-card__wrap">
+								<a href="#" class="product-card__image">
+									<img src="img/product-card/09.webp" alt="Image">
+								</a>
+								<div class="product-card__bottom">
+									<h3 class="product-card__name">
+										<a href="#">Polo with Contrast Trims</a>
+									</h3>
+									<div class="product-card__raiting raiting">
+										<ul class="raiting__stars">
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+										</ul>
+										<div class="raiting__number">
+											<span>4</span> / <span>5</span>
+										</div>
+									</div>
+									<div class="product-card__price price-card">
+										<div class="price-card__main">$212</div>
+										<div class="price-card__old">$242</div>
+										<div class="price-card__sale">-20%</div>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="product-card">
+							<div class="product-card__wrap">
+								<a href="#" class="product-card__image">
+									<img src="img/product-card/10.webp" alt="Image">
+								</a>
+								<div class="product-card__bottom">
+									<h3 class="product-card__name">
+										<a href="#">Polo with Contrast Trims</a>
+									</h3>
+									<div class="product-card__raiting raiting">
+										<ul class="raiting__stars">
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star-05">
+											</li>
+										</ul>
+										<div class="raiting__number">
+											<span>3.5</span> / <span>5</span>
+										</div>
+									</div>
+									<div class="product-card__price price-card">
+										<div class="price-card__main">$145</div>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="product-card">
+							<div class="product-card__wrap">
+								<a href="#" class="product-card__image">
+									<img src="img/product-card/11.webp" alt="Image">
+								</a>
+								<div class="product-card__bottom">
+									<h3 class="product-card__name">
+										<a href="#">Polo with Tipping Details</a>
+									</h3>
+									<div class="product-card__raiting raiting">
+										<ul class="raiting__stars">
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star-05">
+											</li>
+										</ul>
+										<div class="raiting__number">
+											<span>4.5</span> / <span>5</span>
+										</div>
+									</div>
+									<div class="product-card__price price-card">
+										<div class="price-card__main">$180</div>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="product-card">
+							<div class="product-card__wrap">
+								<a href="#" class="product-card__image">
+									<img src="img/product-card/12.webp" alt="Image">
+								</a>
+								<div class="product-card__bottom">
+									<h3 class="product-card__name">
+										<a href="#">Black Striped T-shirt</a>
+									</h3>
+									<div class="product-card__raiting raiting">
+										<ul class="raiting__stars">
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+											<li class="raiting__star _icon-star">
+											</li>
+										</ul>
+										<div class="raiting__number">
+											<span>5</span> / <span>5</span>
+										</div>
+									</div>
+									<div class="product-card__price price-card">
+										<div class="price-card__main">$120</div>
+										<div class="price-card__old">$150</div>
+										<div class="price-card__sale">-30%</div>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="footer__container">
+					<div class="footer__bgraund">
+						<div class="footer__lable lable-footer">
+							<div class="lable-footer__wrap">
+								<div class="lable-footer__title">STAY UPTO DATE ABOUT OUR LATEST
+									OFFERS</div>
+								<form action="#" class="lable-footer__form">
+									<div class="lable-footer__wrap-input _icon-mail"><input autocomplete="off" type="email" name="form[]" data-error="Помилка" placeholder="Enter your email address" class="lable-footer__input"></div>
+									<button class="lable-footer__button">Subscribe to
+										Newsletter</button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="footer__main main-footer">
+						<div class="main-footer__column-main column-main-footer">
+							<a href="#" class="column-main-footer__logo"><img src="img/logo.svg" alt></a>
+							<div class="column-main-footer__text">
+								<p>We have clothes that suits your style and which you’re proud to
+									wear. From women to men.</p>
+							</div>
+							<ul class="column-main-footer__social">
+								<li class="column-main-footer__item">
+									<a class="column-main-footer__link _icon-twitter" href="#"></a>
+								</li>
+								<li class="column-main-footer__item">
+									<a class="column-main-footer__link _icon-faceboock" href="#"></a>
+								</li>
+								<li class="column-main-footer__item">
+									<a class="column-main-footer__link _icon-instagram" href="#"></a>
+								</li>
+								<li class="column-main-footer__item">
+									<a class="column-main-footer__link _icon-git" href="#"></a>
+								</li>
+							</ul>
+						</div>
+						<div class="main-footer__column column-footer">
+							<div class="column-footer__lable">Company</div>
+							<ul class="column-footer__list">
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">About</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Features</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Works</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Career</a>
+								</li>
+							</ul>
+						</div>
+						<div class="main-footer__column column-footer">
+							<div class="column-footer__lable">Help</div>
+							<ul class="column-footer__list">
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Customer Support</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Delivery Details</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Terms & Conditions</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Privacy Policy</a>
+								</li>
+							</ul>
+						</div>
+						<div class="main-footer__column column-footer">
+							<div class="column-footer__lable">FAQ</div>
+							<ul class="column-footer__list">
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Account</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Manage Deliveries</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Orders</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Payments</a>
+								</li>
+							</ul>
+						</div>
+						<div class="main-footer__column column-footer">
+							<div class="column-footer__lable">Resources</div>
+							<ul class="column-footer__list">
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Free eBooks</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Development Tutorial</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">How to - Blog</a>
+								</li>
+								<li class="column-footer__item">
+									<a href="#" class="column-footer__link">Youtube Playlist</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__copyright">Shop.co © 2000-2023, All Rights Reserved</div>
+						<ul class="bottom-footer__list">
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/visa.svg" alt="Image">
+								</a>
+							</li>
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/master.svg" alt="Image">
+								</a>
+							</li>
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/paypal.svg" alt="Image">
+								</a>
+							</li>
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/aplepay.svg" alt="Image">
+								</a>
+							</li>
+							<li class="bottom-footer__item">
+								<a href="#" class="bottom-footer__link">
+									<img src="img/icons/googlepay.svg" alt="Image">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</main>
+		<script src="js/app.min.js?_v=20240914100440"></script>
+	</div>
+</body>
+
+</html>
